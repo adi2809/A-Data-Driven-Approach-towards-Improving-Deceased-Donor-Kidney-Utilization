@@ -1,14 +1,11 @@
 # A Data-Driven Approach towards Improving Deceased-Donor Kidney Utilization
-
-Reproducibility code for the accepted Machine Learning for Healthcare paper.
-
-The release contains the paper pipeline only: construction of ordered kidney match runs, temporally split benchmark data, OfferPred, DiscardPred, segment-hazard LocationPred, evaluation artifacts, and provenance audits. Restricted source data and generated artifacts are not included.
+The release contains the paper pipeline only: construction of ordered kidney match runs, temporally split benchmark data, OfferPred, DiscardPred, segment-hazard LocationPred, evaluation artifacts, and provenance audits. 
 
 ## Paper Inference
 
 For every validation or test match run:
 
-1. OfferPred scores every supplied row in order, including rows with `Y`, `N`, `B`, and `Z` response codes.
+1. OfferPred scores every supplied row in the match run.
 2. The complete score sequence is summarized for DiscardPred.
 3. If `discard_probability >= 0.5`, the run is assigned to the discard branch.
 4. Otherwise, LocationPred assigns segment hazards, redistributes each segment's mass using the OfferPred scores, and returns the modal row as the predicted first acceptance.
