@@ -56,5 +56,3 @@ Garg, A. S., Feigenbaum, I., Yu, M. E., Mohan, S., & Sethuraman, J. (2026). A Da
   year      = {2026}
 }
 ```
-
-Machine-readable metadata are provided in [CITATION.cff](CITATION.cff).
