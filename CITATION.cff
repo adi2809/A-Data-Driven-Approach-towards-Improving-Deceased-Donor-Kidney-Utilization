@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and repository."
+title: "A Data-Driven Approach towards Improving Deceased-Donor Kidney Utilization"
+type: software
+authors:
+  - family-names: "Garg"
+    given-names: "Aditya Shankar"
+  - family-names: "Feigenbaum"
+    given-names: "Itai"
+  - family-names: "Yu"
+    given-names: "Miko E."
+  - family-names: "Mohan"
+    given-names: "Sumit"
+  - family-names: "Sethuraman"
+    given-names: "Jay"
+abstract: "Reproducibility code for a machine-learning framework that predicts deceased-donor kidney underutilization risk from match-run structure using OfferPred, DiscardPred, and LocationPred."
+keywords:
+  - kidney allocation
+  - organ transplantation
+  - clinical machine learning
+  - reproducibility
+version: "0.1.0"
+date-released: "2026-07-26"
+preferred-citation:
+  type: conference-paper
+  title: "A Data-Driven Approach towards Improving Deceased-Donor Kidney Utilization"
+  authors:
+    - family-names: "Garg"
+      given-names: "Aditya Shankar"
+    - family-names: "Feigenbaum"
+      given-names: "Itai"
+    - family-names: "Yu"
+      given-names: "Miko E."
+    - family-names: "Mohan"
+      given-names: "Sumit"
+    - family-names: "Sethuraman"
+      given-names: "Jay"
+  conference:
+    name: "Machine Learning for Healthcare"
+  collection-title: "Proceedings of Machine Learning Research"
+  volume: 340
+  start: 1
+  end: 29
+  year: 2026
